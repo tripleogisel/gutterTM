@@ -1,0 +1,29 @@
+html {
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Serif;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.placeHolder {
+  position: asbolute;
+  background-color: white;
+
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 480px){
+  img {
+    max-width: 75%;
+  }
+}
