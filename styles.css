@@ -11,6 +11,16 @@ p {
     -webkit-margin-end: 0px;
 }
 
+.doIt{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  position: absolute;
+  left: 42%;
+  top: 42%;
+}
+
 .placeHolder {
   position: asbolute;
   background-color: white;
@@ -29,6 +39,6 @@ img {
 @media (max-width: 480px){
   img {
     max-width: 80%;
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
 }
